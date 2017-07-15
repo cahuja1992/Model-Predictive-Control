@@ -5,6 +5,11 @@
 2. It uses a mathematical dynamics process model to predict and optimize the future behavior of systems [1]. 
 3. This implementation was built in C++ and tries to calculate an optimal trajectory for the car simulator to follow around the track. 
 
+Following equations are used to update the mdoel
+<br>
+<img src="https://github.com/cahuja1992/Model-Predictive-Control/blob/master/images/update.png"/>
+<br>
+
 ### Model Description 
 Kinetic model has been implemented in the following approach, which is a simplification of a dynamic vehicle model. It uses model state and output from each time-step to calculate the next, as well as plot a trajectory. 
 
